@@ -36,7 +36,7 @@ function palindromeRater (input) {
     ratingText.innerText = `Ok, we're going places with '${textInput.value}'! But I'm still very far from impressed, Rookie. Power level: Honeybee`
   }
   else if (input.length > 16 && input.length <= 30) {
-    ratingText.innerText = "Good job, kiddo. Maybe you capable of polishing my boots after all! Power level: Mouse"
+    ratingText.innerText = "Good job, kiddo. Maybe you're capable of polishing my boots after all! Power level: Mouse"
   }
   else if (input.length > 30 && input.length <= 40) {
     ratingText.innerText = "Ok! I'm actually starting to become impressed. But don't get ahead of yourself! You still have a long way to go to beat the best! Power level: Cat"
