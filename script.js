@@ -55,7 +55,8 @@ function palindromeRater (input) {
   }
 }
 
-button.addEventListener("click", () => {
+button.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent form submission to avoid page reload
   if (textInput.value === '') {
     alert('Please input a value');
   } else {
